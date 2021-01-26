@@ -11,12 +11,12 @@
 <body>
     <div class="top_bar"></div>
     @section('nav_menu')
-    <div class="container">
-        <div class="row">
+    
+        
             <div class="container">
                 <div class="row">
                   <div class="col-sm">
-                    logo
+                    <img class="logo" src="https://www.boolean.careers/images/misc/logo.png" alt="">
                   </div>
                   <div class="col-sm">
                         <ul >
@@ -33,8 +33,7 @@
                 @yield('Testo','Testo home')
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed, expedita aspernatur in quibusdam ullam nihil repudiandae. Quibusdam quas ducimus maiores laboriosam dolorum, quidem, ut accusantium deserunt nihil quaerat aspernatur.</p>
               </div>
-        </div>
-    </div>
+        
         
     
     
