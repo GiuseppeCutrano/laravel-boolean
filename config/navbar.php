@@ -6,6 +6,7 @@ return[
         ['name' => "Home", "id"=>"home"],
         ['name' => "Corso", "id"=>"corso"],
         ["name" => "Dopo il corso", "id" => "dopo"],
+        ["name" => "Camp gratuito", "id" => "camp"]
         
         
     ]

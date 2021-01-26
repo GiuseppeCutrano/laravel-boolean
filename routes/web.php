@@ -20,6 +20,7 @@ use config\navbar;
 Route::get('/', "home@index")->name("home");
 Route::get('/corso', "corso@index")->name("corso");
 Route::get('/dopo', "dopo@index")->name("dopo");
+Route::get('/camp', "camp@index")->name("camp");
 
 
 
