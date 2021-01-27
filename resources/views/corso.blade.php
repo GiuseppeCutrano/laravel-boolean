@@ -1,4 +1,7 @@
 @extends('layouts.layout')
 
-@section('Testo','Testo Corso')
 
+
+@section('content')
+    <h4>Durante il corsoh<h4>
+@endsection

@@ -9,30 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="top_bar"></div>
-    @section('nav_menu')
-    
-        
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm-6 header_left">
-                    <img class="logo " src="https://www.boolean.careers/images/misc/logo.png" alt="">
-                  </div>
-                  <div class="col-sm-6 header_right">
-                        <ul>
-                            @foreach (config('navbar.link') as $links)
-                                <li class={{ Route::currentRouteName() == $links['id'] ? 'active' : '' }}><a href="{{ route($links['id']) }}">{{ $links['name'] }}</a></li>
+  @include('common.header')
 
-                            @endforeach
-                            <li><a href=""><button class='boolean__btn'>Candidati ora</button></a></li>
-                        </ul>
-                  </div>
-                  
-                </div>
-                @yield('Testo','Testo home')
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed, expedita aspernatur in quibusdam ullam nihil repudiandae. Quibusdam quas ducimus maiores laboriosam dolorum, quidem, ut accusantium deserunt nihil quaerat aspernatur.</p>
-              </div>
-        
+  @section('content')
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste possimus praesentium numquam officia alias magni, nam in dicta fugiat neque? Dolor non deserunt facere ab quasi beatae ullam similique consectetur.</p>
+  @show
         
     
     

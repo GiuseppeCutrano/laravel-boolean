@@ -1,3 +1,7 @@
 @extends('layouts.layout')
 
-@section('Testo','Testo dopo corso')
+@section('content')
+<h6>Dopo il corso</h6>
+    
+@endsection
+

@@ -1,3 +1,5 @@
 @extends('layouts.layout')
 
-@section('Testo','Testo Camp')
+@section('content')
+    <p>Testo camp</p>
+@endsection
