@@ -23,6 +23,9 @@ Route::get('/dopo', "dopo@index")->name("dopo");
 Route::get('/camp', "camp@index")->name("camp");
 
 Route::get('/lista', 'UtentiController@index')->name('lista');
+Route::get('/utenti/{id}', 'UtentiController@show');
+
+
 
 
 

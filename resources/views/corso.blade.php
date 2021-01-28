@@ -3,5 +3,5 @@
 
 
 @section('content')
-    <h4>Durante il corsoh<h4>
+    <h4>Durante il corso<h4>
 @endsection

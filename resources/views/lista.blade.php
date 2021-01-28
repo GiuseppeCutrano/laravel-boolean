@@ -8,6 +8,7 @@
             <img src="{{ $utente->image }}" alt="Immagine profilo">
             <p>Email:  {{ $utente->email }}</p>
             <p>Sesso:  {{ $utente->gender }}</p>
+             <a href="utenti/{{ $utente->id }}">Profilo dettagliato</a> 
             <br>
         </div>
         @endforeach
